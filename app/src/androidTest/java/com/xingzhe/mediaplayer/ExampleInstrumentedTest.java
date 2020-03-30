@@ -1,4 +1,4 @@
-package com.example.mediaplayer;
+package com.xingzhe.mediaplayer;
 
 import android.content.Context;
 

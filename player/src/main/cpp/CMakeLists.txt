@@ -19,10 +19,15 @@ add_library( # Sets the name of the library.
 
         # Provides a relative path to your source file(s).
         media_player_jni.cpp
+        MediaPlayer.cpp
+        IPlayer.cpp
+        VideoPlayer.cpp
+        AudioPlayer.cpp
+        queue/PacketQueue.cpp
         )
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
-include_directories(${CMAKE_SOURCE_DIR}/soundtouch/include)
+#include_directories(${CMAKE_SOURCE_DIR}/soundtouch/include)
 set(JNILIBS_SRC ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI})
 message(${ANDROID_ABI})
 add_library(

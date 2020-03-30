@@ -1,4 +1,4 @@
-package com.example.player;
+package com.xingzhe.player;
 
 import android.content.Context;
 

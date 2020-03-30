@@ -1,4 +1,4 @@
-package com.example.player;
+package com.xingzhe.mediaplayer;
 
 import org.junit.Test;
 
